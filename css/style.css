@@ -17,7 +17,7 @@
 
 .lines:after, .lines:before {
     content: '';
-    width: 75px;
+    width: 10%;
     height: 2px;
     background-color: white;
     display: inline-block;
@@ -30,12 +30,34 @@
 
 /* SPECIFICS */
 .img_avatar {
-    max-width: 25%;
+    max-width: 30%;
 }
 
-.img_portfolio {
-    width: 75%;
+/* RESPONSIVE */
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .md_float_end {
+        float: inline-end;
+    }
+
+    .md_float_start {
+        float: inline-start;
+    }
 }
 
+/* Large devices (desktops, less than 1200px) */
+@media screen and (min-width: 992px) {
+    .lg_float_end {
+        float: inline-end;
+    }
+
+    .lg_float_none {
+        float: none;
+    }
+
+    .lg_float_start {
+        float: inline-start;
+    }
+}
 
 
