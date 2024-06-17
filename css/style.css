@@ -28,6 +28,24 @@
     background-color: black;
 }
 
+.contact_info input {
+    width: 100%;
+}
+
+.contact_info input, textarea {
+    border: none;
+    font-weight: 600;
+}
+
+.input_btn {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 4px 10px 5px 10px;
+    border-radius: 5px;
+}
+
 /* SPECIFICS */
 .img_avatar {
     max-width: 30%;
